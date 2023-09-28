@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ACROSS</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-</head>
-<body>
-    <h1>Heatmap Image Processor</h1>
-    <input type="file" id="imageInput" accept="image/*">
-    <button id="analyzeButton">Analisa Foto</button>
-  <p>Persentase Kasar Kerusakan: <span id="percentage">0%</span></p>
-    <canvas id="pieChart"></canvas>
-    <script src="/js/heatmap.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="icon" type="image/png" href="./assets/logoacrossbulet.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="./assets/logoacrossbulet.png" sizes="32x32">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>ACROSS</title>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </head>
+    <body>
+        <h1>Heatmap Image Processor</h1>
+        <input type="file" id="imageInput" accept="image/*">
+        <button id="analyzeButton">Analisa Foto</button>
+        <p>Persentase Kasar Kerusakan: <span id="percentage">0%</span></p>
+        <canvas id="pieChart"></canvas>
+        <script src="/js/heatmap.js"></script>
+    </body>
 </html>
